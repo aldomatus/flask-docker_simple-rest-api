@@ -87,7 +87,7 @@ Link to visit postman website: - [Link](https://www.postman.com/downloads/)
 
 <!-- EXPLAIN CODE -->
 ## Description of the REST API code
-<details open="open">
+<details open="close">
     <summary>Click to see the code</summary>
     
 ```python
@@ -158,7 +158,8 @@ def deleteProduct(product_name):
 
 
 if __name__=='__main__':
-    app.run(debug=True, port=5000)```
+    app.run(debug=True, port=5000)
+```
   
 </details>
 
