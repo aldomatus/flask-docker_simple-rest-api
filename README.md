@@ -85,15 +85,27 @@ Link to visit postman website: - [Link](https://www.postman.com/downloads/)
  <img src=https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png width="150" alt="Header" >
 </div>
 
+<!-- EXPLAIN CODE -->
+## Description of the REST API code
+<details open="open">
+<summary>Table of Contents</summary>
+```
+#   Flask 
+from flask import Flask, request, jsonify
+
+#   Data
+from products import products
+
+app = Flask(__name__)
+```
+  </details>
+
 <!-- GETTING STARTED -->
 ## Getting Started
-
-
 
 ### Prerequisites
 
 For this project you need to have Docker and Docker compose installed
-
 
 <ol>
 <li>Link to install Docker engine:</li>
@@ -104,7 +116,7 @@ For this project you need to have Docker and Docker compose installed
 <a href="https://docs.docker.com/compose/install/">Linux Windows Mac</a>
 </li>
 
-
+Fist
 
 ### Installation
 
